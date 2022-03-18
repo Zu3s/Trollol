@@ -3,6 +3,9 @@ local Char = Plr.Character or Plr.CharacterAdded:Wait() --[[Character]]--
 
 function Skid() --[[Fuck The Skids]]--
 
+    --[[Log]]--
+    print("Detect this skid LOL!")
+
     --[[Flight Exploits]]--
     Instance.new("BodyVelocity").Parent = Char
     Instance.new("BodyGyro").Parent = Char
